@@ -1,0 +1,40 @@
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(165, 165, 241);
+    z-index: 1;
+}
+.job-title{
+    display: grid;
+    grid-template-columns: 0.2fr 2fr;
+    padding: 10px;
+    color: white;
+}
+img{
+    width:40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 4vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    text-align: right;
+    padding-top: 3vh;
+    padding-right: 4vw;
+
+}
+.login a{
+    margin-right: 10px;
+}

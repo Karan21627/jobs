@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(165, 165, 241);
+    
+    /* background-image: linear-gradient(to right,white, rgb(211, 211, 228));  */
+}
+.welcome_message{
+    color: white;
+    font-size: x-large;
+    text-align: left;
+    padding-left: 12vw;
+    padding-top: 20vh;
+    line-height: 8vh;
+}
+button{
+    background-color: rgb(22, 235, 22);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+.background_image{
+    padding-top: 10vh;
+    background-image: url("https://w7.pngwing.com/pngs/627/803/png-transparent-employment-website-job-recruitment-cover-letter-others-hand-resume-public-relations.png");
+    background-position: center;
+    background-size: cover;
+}

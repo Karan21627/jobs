@@ -1,0 +1,21 @@
+
+.job_post{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 40vw;
+    text-align: center;
+}
+input{
+    padding: 2vh;
+    margin: 10px;
+    border-radius: 10px;
+}
+ .job_post button{
+    width: 10vw;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+
